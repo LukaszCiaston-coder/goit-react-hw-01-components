@@ -1,26 +1,29 @@
 .profile {
     margin-top: 40px;
-    max-width: 400px;
-    max-height: 700px;
+    width: 300px;
+    max-height: 400px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     border-radius: 4px;
-    border: 1px solid #808080;
     overflow: hidden;
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.25);
     margin-left: auto;
     margin-right: auto;
+    background: linear-gradient(to bottom, #00a78e, #141272);
+    cursor: pointer;
+    transition: width 0.3s, height 0.3s; 
 }
-
+.profile:hover {
+    width: 250px;
+    height: 350px;
+}
 .description {
     padding: 4px;
-    background-color: #fff;
     width: 100%;
     display: flex;
     flex-direction: column;
-    gap: 5px;
     align-items: center;
     text-align: center;
 }
@@ -36,25 +39,25 @@
 .name {
     font-size: 20px;
     font-weight: 700;
+    margin-bottom: 5px;
 }
 
 .tag {
-    color: #808080;
+    color: #e0e0e0;
     font-weight: 600;
+    margin-bottom: 5px;
 }
 
 .location {
-    color: #808080;
+    color: #e0e0e0;
     font-weight: 600;
+    margin-bottom: 15px;
 }
-
 .stats {
     display: flex;
-    background-color: #f4f4f4;
     width: 100%;
     justify-content: space-between;
-    margin-left: 5px;
-    margin-right: 5px;
+    margin:auto;
     padding-inline-start: 0px;
 }
 
@@ -63,13 +66,12 @@
     flex-direction: column;
     align-items: center;
     flex-grow: 1;
-    border: 1px solid #e0e0e0;
-    padding: 10px;
-    margin: 0;
+    border: 1px solid #0d0c3a;
+    padding: 5px;
 }
 
 .label {
-    color: #808080;
+    color: #e0e0e0;
     font-weight: 600;
 }
 
