@@ -1,15 +1,15 @@
-body{
-background: #141272;
-margin:auto;
+body {
+    background: #141272;
+    margin:auto;
 }
-#root{
+#root {
     display:flex;
-    padding: 100px;
+    padding: 50px;
     justify-content: center;
     gap:5px;
 }
 button {
-    width: 90px;
+    width: 130px;
     height: 60px;
     background: linear-gradient(to bottom, #00a78e, #141272);
     font-size: 20px;
